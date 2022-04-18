@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  iOS-Boilerplate
+//  iOSBoilerplate
 //
 //  Created by Neil Francis Hipona on 4/18/22.
 //
