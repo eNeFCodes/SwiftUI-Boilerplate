@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8FCE970C280CE11B0060FAE5"
-               BuildableName = "iOS-Boilerplate.app"
+               BuildableName = "iOSBoilerplate.app"
                BlueprintName = "iOSBoilerplate"
                ReferencedContainer = "container:iOSBoilerplate.xcodeproj">
             </BuildableReference>
@@ -45,7 +45,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8FCE970C280CE11B0060FAE5"
-            BuildableName = "iOS-Boilerplate.app"
+            BuildableName = "iOSBoilerplate.app"
             BlueprintName = "iOSBoilerplate"
             ReferencedContainer = "container:iOSBoilerplate.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8FCE970C280CE11B0060FAE5"
-            BuildableName = "iOS-Boilerplate.app"
+            BuildableName = "iOSBoilerplate.app"
             BlueprintName = "iOSBoilerplate"
             ReferencedContainer = "container:iOSBoilerplate.xcodeproj">
          </BuildableReference>

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F131941280D00E3004E5C36 /* SwiftGenKit in Frameworks */ = {isa = PBXBuildFile; productRef = 8F131940280D00E3004E5C36 /* SwiftGenKit */; };
+		8F131943280D00E3004E5C36 /* swiftgen in Frameworks */ = {isa = PBXBuildFile; productRef = 8F131942280D00E3004E5C36 /* swiftgen */; };
 		8FCE9711280CE11B0060FAE5 /* iOS_BoilerplateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCE9710280CE11B0060FAE5 /* iOS_BoilerplateApp.swift */; };
 		8FCE9713280CE11B0060FAE5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCE9712280CE11B0060FAE5 /* ContentView.swift */; };
 		8FCE9715280CE11D0060FAE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FCE9714280CE11D0060FAE5 /* Assets.xcassets */; };
@@ -14,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8FCE970D280CE11B0060FAE5 /* iOS-Boilerplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-Boilerplate.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FCE970D280CE11B0060FAE5 /* iOS-Boilerplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "iOS-Boilerplate.app"; path = iOSBoilerplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FCE9710280CE11B0060FAE5 /* iOS_BoilerplateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_BoilerplateApp.swift; sourceTree = "<group>"; };
 		8FCE9712280CE11B0060FAE5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8FCE9714280CE11D0060FAE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -31,6 +33,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F131941280D00E3004E5C36 /* SwiftGenKit in Frameworks */,
+				8F131943280D00E3004E5C36 /* swiftgen in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,6 +105,10 @@
 			dependencies = (
 			);
 			name = iOSBoilerplate;
+			packageProductDependencies = (
+				8F131940280D00E3004E5C36 /* SwiftGenKit */,
+				8F131942280D00E3004E5C36 /* swiftgen */,
+			);
 			productName = "iOS-Boilerplate";
 			productReference = 8FCE970D280CE11B0060FAE5 /* iOS-Boilerplate.app */;
 			productType = "com.apple.product-type.application";
@@ -129,6 +137,9 @@
 				Base,
 			);
 			mainGroup = 8FCE9704280CE11A0060FAE5;
+			packageReferences = (
+				8F13193F280D00E3004E5C36 /* XCRemoteSwiftPackageReference "SwiftGen" */,
+			);
 			productRefGroup = 8FCE970E280CE11B0060FAE5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -553,6 +564,30 @@
 			defaultConfigurationName = "Debug (development)";
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8F13193F280D00E3004E5C36 /* XCRemoteSwiftPackageReference "SwiftGen" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftGen/SwiftGen";
+			requirement = {
+				kind = exactVersion;
+				version = 6.5.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8F131940280D00E3004E5C36 /* SwiftGenKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8F13193F280D00E3004E5C36 /* XCRemoteSwiftPackageReference "SwiftGen" */;
+			productName = SwiftGenKit;
+		};
+		8F131942280D00E3004E5C36 /* swiftgen */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8F13193F280D00E3004E5C36 /* XCRemoteSwiftPackageReference "SwiftGen" */;
+			productName = swiftgen;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8FCE9705280CE11A0060FAE5 /* Project object */;
 }
